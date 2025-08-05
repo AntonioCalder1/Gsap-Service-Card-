@@ -1,0 +1,88 @@
+<!-- Card zoom on scroll -->
+
+<section class="container">
+
+  <div class="shapes-block">
+    <div class="shapes-container">
+      <div class="shape-1"></div>
+      <div class="shape-2"></div>
+      <div class="shape-3"></div>
+    </div>
+  </div>
+
+  <div class="card-title">
+    <h2 class="fade-in"><span><?php block_field('section-title-1');?></span><?php block_field('section-title-2');?></h2>
+    <img src="<?php echo get_stylesheet_directory_uri();?>/images/big-arrow.svg" alt="arrow">
+  </div>
+
+  <div class="card-section">
+
+    <section class="card pinned">
+      <div class="card-content">
+        <div class="card-text">
+          <h3><?php block_field('service-title-1');?></h3>
+          <div class="service-card-link">
+            <span><?php block_field('first-subservice-1');?></span>
+            <span><?php block_field('second-subservice-1');?></span>
+            <span><?php block_field('third-subservice-1');?></span>
+            <span><?php block_field('fourth-subservice-1');?></span>
+          </div>
+          <p><?php block_field('service-text-1');?></p>
+          <a href="<?php block_field('service-button-link-1');?>" class="card-btn"><?php block_field('service-button-text');?></a>
+        </div>
+        <div class="card-video">
+          <video autoplay muted loop playsinline webkit-playsinline x5-playsinline src="<?php block_field('service-video-1');?>" alt="Web design"></video>
+        </div>       
+      </div>
+    </section>
+
+    <section class="card pinned">
+      <div class="card-content">
+       <div class="card-text">
+          <h3><?php block_field('service-title-2');?></h3>
+          <div class="service-card-link">
+            <span><?php block_field('first-subservice-2');?></span>
+            <span><?php block_field('second-subservice-2');?></span>
+            <span><?php block_field('third-subservice-2');?></span>
+            <span><?php block_field('fourth-subservice-2');?></span>
+          </div>
+          <p><?php block_field('service-text-2');?></p>
+          <a href="<?php block_field('service-button-link-2');?>" class="card-btn"><?php block_field('service-button-text');?></a>
+        </div>
+        <div class="card-video">
+         <video autoplay muted loop playsinline webkit-playsinline x5-playsinline src="<?php block_field('service-video-2');?>" alt="Seo optimization"></video>
+        </div>  
+      </div>      
+      <div class="shapes-block">
+        <div class="shapes-container">
+          <div class="shape-2"></div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="card scroll">
+      <div class="card-content">
+        <div class="card-text">
+          <h3><?php block_field('service-title-3');?></h3>
+          <div class="service-card-link">
+            <span><?php block_field('first-subservice-3');?></span>
+            <span><?php block_field('second-subservice-3');?></span>
+          </div>
+          <p><?php block_field('service-text-3');?></p>
+          <a href="<?php block_field('service-button-link-3');?>" class="card-btn"><?php block_field('service-button-text');?></a>
+        </div>
+        <div class="card-video">
+          <video autoplay muted loop playsinline webkit-playsinline x5-playsinline src="<?php block_field('service-video-3');?>" alt="Consulting"></video>
+        </div>  
+      </div>  
+      <div class="shapes-block">
+        <div class="shapes-container">
+          <div class="shape-3"></div>
+        </div>
+      </div>   
+     </section>
+
+    <section class="card-spacer"></section>
+
+  </div>
+</section>
